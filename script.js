@@ -1,5 +1,5 @@
 // Typing Effect
-const words = ["AI Developer", "Full Stack Developer", "ML Enthusiast"];
+const words = ["AI Developer", "Full Stack Developer", "Data Science Enthusiast"];
 let i = 0;
 let j = 0;
 let currentWord = "";
@@ -20,7 +20,7 @@ function type() {
       i = (i + 1) % words.length;
     }
   }
-  setTimeout(type, 120);
+  setTimeout(type, 80);
 }
 
 type();
